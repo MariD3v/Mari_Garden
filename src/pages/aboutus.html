@@ -4,20 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <title>Mari's Garden</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="container-fluid d-flex justify-content-between" style="background-color: var(--bl-color)">
+        <a href="../index.html"><img src="../assets/Logo (2).png" height="150px" style="margin: 10px; border: 3px solid rgb(195, 171, 145)"></a>
+        <div class="d-flex justify-content-between" style="margin: 10px;">
+            <div class="form-check form-switch" style="margin: 10px;">
+                <i class="bi bi-moon-stars-fill" style="font-size: 20px; color:var(--gm-color)"></i>
+                <input class="form-check-input" style="margin-top: 7px;background-color: var(--gm-color);border:white" type="checkbox" id="darkModeSwitch" checked aria-label="Dark/Light mode" data-bs-toggle="tooltip" data-bs-placement="top" title="Dark/Light mode">
+            </div>
+            <div class="">
+                    <button type="button" class="btn" style="background-color: var(--gm-color);">
+                        <i class="bi bi-type" style="font-size: 22px; color:var(--bll-color)">+</i>
+                    </button>
+            </div>
+        </div>
     </header>
-    <nav>
-
+    <nav class="navbar navbar-expand-lg p-3"  style="background-color: var(--bll-color);">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold ms-5" href="../index.html"  style="color: var(--gmd-color);"><i class="bi bi-house-fill fs-3"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav ms-auto me-auto">
+                    <li class="nav-item dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: var(--glm-color);"><i class="bi bi-flower1"></i> Plantas</button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item linkNav" href="plantsCience.html">Nombre científico</a></li>
+                          <li><a class="dropdown-item linkNav" href="plantsComun.html">Nombre común</a></li>
+                        </ul>      
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/sections.html" style="color: var(--glm-color);">Artículos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/aboutus.html" style="color: var(--glm-color);">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html" style="color: var(--glm-color);">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-4" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn" type="submit" style="background-color: var(--gmd-color); color: var(--bll-color);">Buscar</button>
+                </form>
+            </div>
+        </div>
     </nav>
     <section>
-
+        <div class="container mt-5 mb-5">
+            <h1 class="mb-4" style="color: var(--gm-color);">Sobre nosotros</h1>
+            <p>En Mari's Garden, somos apasionados de la naturaleza y el arte de cultivar vida. Nuestro objetivo es inspirarte, guiarte y acompañarte en tu camino para crear y cuidar espacios verdes llenos de vida y color.<br>
+                <br>
+                Desde consejos prácticos para principiantes hasta técnicas avanzadas para jardineros experimentados, ofrecemos una amplia gama de artículos diseñados para responder todas tus dudas y despertar tu creatividad. Creemos que cualquier persona puede desarrollar un pulgar verde con la información adecuada, y estamos aquí para proporcionártela.<br>
+                <br>
+                En nuestra web encontrarás:<br><br>
+                🌱 Guías de cultivo: Aprende a cuidar tus plantas, desde flores ornamentales hasta hortalizas.<br>
+                🌿 Artículos especializados: Descubre datos curiosos, consejos de diseño de jardines y las últimas tendencias en jardinería.<br>
+                🌸 Enciclopedia de plantas: Un repositorio completo con información sobre cientos de especies: cuidados, requerimientos y más.<br>
+                <br>
+                Nuestra misión es hacer de la jardinería algo accesible, divertido y significativo para todos. No importa si tienes un gran jardín o un pequeño balcón, juntos podemos transformar cualquier espacio en un oasis verde.<br><br>
+                
+                Conéctate con nosotros y deja que florezca tu pasión por la jardinería.</p>
+                <br>
+        </div>
     </section>
-    <footer>
-        
+    <footer class="container-fluid d-flex flex-column text-center pt-2 mt-5" style="background-color: var(--glm-color);">
+        <p style="color: var(--bll-color);">Página web realizada por Maria Jose Salar Garcia <span style="font-weight:bold; color:var(--bll-color);"><i class="bi bi-c-circle ms-3"></i> Copyright</span></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

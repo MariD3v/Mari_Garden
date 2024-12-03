@@ -1,0 +1,28 @@
+:root {
+    --bll-color: #f9f6ef;
+    --bl-color: rgb(240, 230, 215);;
+    --blm-color: #d0c6b8;
+    --bm-color: #bdae98;
+    --bmd-color: #a49681;
+    --bd-color: #8b7e6b;
+    --gll-color:#d1e6d1;
+    --gl-color: #87a787;
+    --glm-color: #5c775c;
+    --gm-color: #4a6d4a;
+    --gmd-color: #36583c;
+    --gd-color: #26432b;
+}
+
+.linkNav{
+    color: var(--gmd-color);
+}
+
+.linkNav:hover{
+    color: var(--gmd-color);
+}
+
+
+.linkNav:active{
+    background-color: var(--bl-color);
+    color: var(--gmd-color);
+}
