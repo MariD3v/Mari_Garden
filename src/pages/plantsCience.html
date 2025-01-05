@@ -59,7 +59,150 @@
     </nav>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-3 p-5 d-flex flex-column" style="background-color: var(--bl-color);">
+            <div class="accordion d-block d-lg-none mt-3" id="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: var(--bl-color); color: var(--bd-color);">Filtros</button></h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="container p-2">
+                                <div class="row">
+                                    <div class="col-lg-12 col-sm-4 col-12">
+                                    <h5 class="p-1" style="color: var(--gm-color);">Familia</h5>
+                                    <div class="container">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Fabaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Poaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Asteraceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Solanaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Brassicaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Rosaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Lamiaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Cactaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Orchidaceae
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Rutaceae
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-4 col-12">
+                                    <h5 class=" p-1" style="color: var(--gm-color);">Tipos de plantas</h5>
+                                    <div class="container">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Árboles
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Árbustos
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Flores
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Hierbas
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Cactáceas
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Suculentas
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-4 col-12">
+                                    <h5 class="p-1" style="color: var(--gm-color);">Región</h5>
+                                    <div class="container">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Tropicales
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Desérticas
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Templadas
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn m-3" type="submit" style="background-color: var(--gmd-color); color: var(--bll-color);">Filtrar</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 p-5 d-lg-flex flex-column d-none" style="background-color: var(--bl-color);">
                 <h2 style="color: var(--gd-color);">Filtrar por...</h2>
                 <div class="container p-2">
                     <div class="row">
@@ -196,93 +339,181 @@
                 <button class="btn m-3" type="submit" style="background-color: var(--gmd-color); color: var(--bll-color);">Filtrar</button>
             </div>
         </div>
-            <div class="col-12 col-lg-9 p-5">
+            <div class="col-12 col-lg-9 p-2 p-lg-5">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
+                    <div class="dropdown d-lg-none d-flex">
+                        <button class="btn dropdown-toggle" style="background-color: var(--bl-color); color: var(--bd-color);" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Letra
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="A" data-bs-toggle="tab" data-bs-target="#A-pane" type="button" role="tab" aria-controls="A-pane" aria-selected="true">A</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="B" data-bs-toggle="tab" data-bs-target="#B-pane" type="button" role="tab" aria-controls="B-pane" aria-selected="false">B</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="C" data-bs-toggle="tab" data-bs-target="#C-pane" type="button" role="tab" aria-controls="C-pane" aria-selected="false">C</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="D" data-bs-toggle="tab" data-bs-target="#D-pane" type="button" role="tab" aria-controls="D-pane" aria-selected="false">D</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="E" data-bs-toggle="tab" data-bs-target="#E-pane" type="button" role="tab" aria-controls="E-pane" aria-selected="false">E</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="F" data-bs-toggle="tab" data-bs-target="#F-pane" type="button" role="tab" aria-controls="F-pane" aria-selected="false">F</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="G" data-bs-toggle="tab" data-bs-target="#G-pane" type="button" role="tab" aria-controls="G-pane" aria-selected="false">G</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="H" data-bs-toggle="tab" data-bs-target="#H-pane" type="button" role="tab" aria-controls="H-pane" aria-selected="false">H</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="I" data-bs-toggle="tab" data-bs-target="#I-pane" type="button" role="tab" aria-controls="I-pane" aria-selected="false">I</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="J" data-bs-toggle="tab" data-bs-target="#J-pane" type="button" role="tab" aria-controls="J-pane" aria-selected="false">J</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="K" data-bs-toggle="tab" data-bs-target="#K-pane" type="button" role="tab" aria-controls="K-pane" aria-selected="false">K</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="L" data-bs-toggle="tab" data-bs-target="#L-pane" type="button" role="tab" aria-controls="L-pane" aria-selected="false">L</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="M" data-bs-toggle="tab" data-bs-target="#M-pane" type="button" role="tab" aria-controls="M-pane" aria-selected="false">M</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="N" data-bs-toggle="tab" data-bs-target="#N-pane" type="button" role="tab" aria-controls="N-pane" aria-selected="false">N</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="Ñ" data-bs-toggle="tab" data-bs-target="#Ñ-pane" type="button" role="tab" aria-controls="Ñ-pane" aria-selected="false">Ñ</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="O" data-bs-toggle="tab" data-bs-target="#O-pane" type="button" role="tab" aria-controls="O-pane" aria-selected="false">O</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="P" data-bs-toggle="tab" data-bs-target="#P-pane" type="button" role="tab" aria-controls="P-pane" aria-selected="false">P</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="Q" data-bs-toggle="tab" data-bs-target="#Q-pane" type="button" role="tab" aria-controls="Q-pane" aria-selected="false">Q</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="R" data-bs-toggle="tab" data-bs-target="#R-pane" type="button" role="tab" aria-controls="R-pane" aria-selected="false">R</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="S" data-bs-toggle="tab" data-bs-target="#S-pane" type="button" role="tab" aria-controls="S-pane" aria-selected="false">S</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="T" data-bs-toggle="tab" data-bs-target="#T-pane" type="button" role="tab" aria-controls="T-pane" aria-selected="false">T</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="U" data-bs-toggle="tab" data-bs-target="#U-pane" type="button" role="tab" aria-controls="U-pane" aria-selected="false">U</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="V" data-bs-toggle="tab" data-bs-target="#V-pane" type="button" role="tab" aria-controls="V-pane" aria-selected="false">V</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="W" data-bs-toggle="tab" data-bs-target="#W-pane" type="button" role="tab" aria-controls="W-pane" aria-selected="false">W</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="X" data-bs-toggle="tab" data-bs-target="#X-pane" type="button" role="tab" aria-controls="X-pane" aria-selected="false">X</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="dropdown-item" id="Y" data-bs-toggle="tab" data-bs-target="#Y-pane" type="button" role="tab" aria-controls="Y-pane" aria-selected="false">Y</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="dropdown-item" id="Z" data-bs-toggle="tab" data-bs-target="#Z-pane" type="button" role="tab" aria-controls="Z-pane" aria-selected="false">Z</button>
+                            </li>
+                        </ul>
+                      </div>
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link active" id="A" data-bs-toggle="tab" data-bs-target="#A-pane" type="button" role="tab" aria-controls="A-pane" aria-selected="true">A</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="B" data-bs-toggle="tab" data-bs-target="#B-pane" type="button" role="tab" aria-controls="B-pane" aria-selected="false">B</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="C" data-bs-toggle="tab" data-bs-target="#C-pane" type="button" role="tab" aria-controls="C-pane" aria-selected="false">C</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="D" data-bs-toggle="tab" data-bs-target="#D-pane" type="button" role="tab" aria-controls="D-pane" aria-selected="false">D</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="E" data-bs-toggle="tab" data-bs-target="#E-pane" type="button" role="tab" aria-controls="E-pane" aria-selected="false">E</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="F" data-bs-toggle="tab" data-bs-target="#F-pane" type="button" role="tab" aria-controls="F-pane" aria-selected="false">F</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="G" data-bs-toggle="tab" data-bs-target="#G-pane" type="button" role="tab" aria-controls="G-pane" aria-selected="false">G</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="H" data-bs-toggle="tab" data-bs-target="#H-pane" type="button" role="tab" aria-controls="H-pane" aria-selected="false">H</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="I" data-bs-toggle="tab" data-bs-target="#I-pane" type="button" role="tab" aria-controls="I-pane" aria-selected="false">I</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="J" data-bs-toggle="tab" data-bs-target="#J-pane" type="button" role="tab" aria-controls="J-pane" aria-selected="false">J</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="K" data-bs-toggle="tab" data-bs-target="#K-pane" type="button" role="tab" aria-controls="K-pane" aria-selected="false">K</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="L" data-bs-toggle="tab" data-bs-target="#L-pane" type="button" role="tab" aria-controls="L-pane" aria-selected="false">L</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="M" data-bs-toggle="tab" data-bs-target="#M-pane" type="button" role="tab" aria-controls="M-pane" aria-selected="false">M</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="N" data-bs-toggle="tab" data-bs-target="#N-pane" type="button" role="tab" aria-controls="N-pane" aria-selected="false">N</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="Ñ" data-bs-toggle="tab" data-bs-target="#Ñ-pane" type="button" role="tab" aria-controls="Ñ-pane" aria-selected="false">Ñ</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="O" data-bs-toggle="tab" data-bs-target="#O-pane" type="button" role="tab" aria-controls="O-pane" aria-selected="false">O</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="P" data-bs-toggle="tab" data-bs-target="#P-pane" type="button" role="tab" aria-controls="P-pane" aria-selected="false">P</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="Q" data-bs-toggle="tab" data-bs-target="#Q-pane" type="button" role="tab" aria-controls="Q-pane" aria-selected="false">Q</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="R" data-bs-toggle="tab" data-bs-target="#R-pane" type="button" role="tab" aria-controls="R-pane" aria-selected="false">R</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="S" data-bs-toggle="tab" data-bs-target="#S-pane" type="button" role="tab" aria-controls="S-pane" aria-selected="false">S</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="T" data-bs-toggle="tab" data-bs-target="#T-pane" type="button" role="tab" aria-controls="T-pane" aria-selected="false">T</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="U" data-bs-toggle="tab" data-bs-target="#U-pane" type="button" role="tab" aria-controls="U-pane" aria-selected="false">U</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="V" data-bs-toggle="tab" data-bs-target="#V-pane" type="button" role="tab" aria-controls="V-pane" aria-selected="false">V</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="W" data-bs-toggle="tab" data-bs-target="#W-pane" type="button" role="tab" aria-controls="W-pane" aria-selected="false">W</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="X" data-bs-toggle="tab" data-bs-target="#X-pane" type="button" role="tab" aria-controls="X-pane" aria-selected="false">X</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                         <button class="nav-link" id="Y" data-bs-toggle="tab" data-bs-target="#Y-pane" type="button" role="tab" aria-controls="Y-pane" aria-selected="false">Y</button>
                     </li>
-                    <li class="nav-item" role="presentation">
+                    <li class="nav-item d-lg-flex d-none" role="presentation">
                       <button class="nav-link" id="Z" data-bs-toggle="tab" data-bs-target="#Z-pane" type="button" role="tab" aria-controls="Z-pane" aria-selected="false">Z</button>
                     </li>
                   </ul>
                   <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="A-pane" role="tabpanel" aria-labelledby="A" tabindex="0">    
-                        <div class="row">
+                        <div class="row p-2">
                             <div class="card col-lg-4 col-md-6 col-12 m-1">                      
                                 <div class="card-body">
                                     <h5 class="card-title">Agave americana</h5>
