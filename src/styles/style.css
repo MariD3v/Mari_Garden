@@ -4,7 +4,7 @@
     --blm-color: #d0c6b8;
     --bm-color: #bdae98;
     --bmd-color: #a49681;
-    --bd-color: #8b7e6b;
+    --bd-color: #ccbda9;
     --gll-color:#d1e6d1;
     --gl-color: #87a787;
     --glm-color: #5c775c;
@@ -25,4 +25,17 @@
 .linkNav:active{
     background-color: var(--bl-color);
     color: var(--gmd-color);
+}
+
+header a{
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+@media all and (max-width: 500px){
+    header a{
+        left: 3%; 
+        transform: translateX(-3%);
+    }
 }
