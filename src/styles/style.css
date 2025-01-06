@@ -1,6 +1,6 @@
 :root {
     --bll-color: #f9f6ef;
-    --bl-color: rgb(240, 230, 215);;
+    --bl-color: rgb(236, 229, 218);;
     --blm-color: #d0c6b8;
     --bm-color: #ccbda9;
     --bmd-color: #a49681;
@@ -38,4 +38,13 @@ header a{
         left: 3%; 
         transform: translateX(-3%);
     }
+}
+
+.letras li button{
+    color: var(--gmd-color);
+    padding: 8px 6.6px;
+}
+
+.letras li button:hover{
+    color: var(--gl-color);
 }
