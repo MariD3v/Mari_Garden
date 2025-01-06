@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="container-fluid d-flex" style="height: 120px;background-color: var(--bd-color)">
+    <header class="container-fluid d-flex" style="height: 120px;background-color: var(--bm-color)">
       <a class="m-1" href="index.html"><img src="assets/Logo (2).png" height="120px"></a>
       <div class="d-flex justify-content-between m-1 ms-auto">
           <div class="form-check form-switch  m-1">
@@ -56,32 +56,53 @@
         </div>
     </nav>
     <section class="container-fluid p-md-5 p-3 mt-3">
-        <div id="carouselExampleCaptions" class="carousel slide mb-4">
-            <div class="carousel-indicators">
+        <div id="carouselExampleCaptions" class="carousel slide mb-0 mb-md-4">
+            <div class="carousel-indicators" style="margin-bottom: 0.5rem;">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <a href="pages/contact.html" class="carousel-item active">
-                <img src="assets/carrusel1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+              <a href="pages/contact.html" class="carousel-item active" style="text-decoration: none;">
+                <img src="assets/carrusel1.png" class="d-block w-100" alt="Contacto">
+                <div class="d-none d-lg-block" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom:15px;">
                   <h2>Contacta con nosotros</h2>
-                  <p>Si tienes alguna duda, estaremos encantados de ayudarte. Ponte en contacto con nosotros y te responderemos lo antes posible</p>
+                  <p>Si tienes dudas, estaremos encantados de ayudarte. Ponte en contacto con nosotros y te responderemos lo antes posible</p>
+                </div>
+                <div class="d-none d-sm-block d-lg-none" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom: 15px;">
+                  <h4>Contacta con nosotros</h4>
+                  <p>Si tienes alguna duda, estaremos encantados de ayudarte</p>
+                </div>
+                <div class="d-block d-sm-none" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom: 27px;">
+                  <h5>Contacta con nosotros</h5>
                 </div>
               </a>
-              <a href="pages/sections.html" class="carousel-item">
-                <img src="assets/carrusel2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+              <a href="pages/sections.html" class="carousel-item" style="text-decoration: none;">
+                <img src="assets/carrusel2.jpg" class="d-block w-100" alt="Artículos">
+                <div class="d-none d-lg-block" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom:15px;">
                   <h2>Artículos sobre jardinería</h2>
-                  <p>¿Quieres aprender a cultivar?Accede a nuestros artículos escritos por profesionales de la jardinería. Consejos, ayuda para cada planta y más...</p>
+                  <p>¿Quieres aprender a cultivar? Accede a nuestros artículos escritos por profesionales de la jardinería</p>
+                </div>
+                <div class="d-none d-sm-block d-lg-none" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom: 15px;">
+                  <h4>Artículos sobre jardinería</h4>
+                  <p>Accede a artículos escritos por profesionales de la jardinería</p>
+                </div>
+                <div class="d-block d-sm-none" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom: 27px;">
+                  <h5>Artículos sobre jardinería</h5>
                 </div>
               </a>
-              <a href="pages/plantsCience.html" class="carousel-item">
-                <img src="assets/carrusel3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+              <a href="pages/plantsCience.html" class="carousel-item" style="text-decoration: none;">
+                <img src="assets/carrusel3.png" class="d-block w-100" alt="Plantas">
+                <div class="d-none d-lg-block" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom:15px;">
                   <h2>Información sobre plantas</h2>
-                  <p>Si tienes alguna duda sobre alguna planta, puedes consultar toda su información aquí</p>
+                  <p>Si tienes dudas sobre alguna planta, puedes consultar toda su información aquí</p>
+                </div>
+                <div class="d-none d-sm-block d-lg-none" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom: 15px;">
+                  <h4>Información sobre plantas</h4>
+                  <p>Consulta toda la información sobre cualquier planta</p>
+                </div>
+                <div class="d-block d-sm-none" style="background-color: var(--gl-color); color: white;text-align: center;padding:10px;padding-bottom: 27px;">
+                  <h5>Información sobre plantas</h5>
                 </div>
               </a>
             </div>
@@ -94,8 +115,8 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="container d-flex flex-column text-center mt-5">
-            <h1 class="fs-1 fw-semibold p-2 fst-italic mt-5" style="color: var(--bd-color);">"Tu jardín, nuestro compromiso"</h1>
+        <div class="container d-flex flex-column text-center mt-3 mt-md-5">
+            <h1 class="fs-1 fw-semibold p-2 fst-italic mt-3 mt-md-5" style="color: var(--bd-color);">"Tu jardín, nuestro compromiso"</h1>
         </div>
     </section>
     <section class="container-fluid p-md-5 p-3 mt-3">
